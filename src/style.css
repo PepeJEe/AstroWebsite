@@ -11,28 +11,35 @@ body{
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url('../icons/Backgroundtest.png');
+    background-image: url('../icons/Background.png');
     margin: 0px;
 }
 .menu-button{
     margin-left: 10px;
 }
-.search-bar{
+.search-div{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 200px;
-    padding: 10px;
+    background-color: aqua;
+    height: 50vh;
 }
-
+.search-bar{
+    display:flex;
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+    max-width: 400px;
+}
 .search-field{
-    max-width: 500px;
-    min-width: 100px;
-    border-radius: 25px;
     border: none;
-    padding: 5px;
+    background: url("../icons/Searchbar.png") no-repeat center;
+    background-size: contain;
+    width: 100%;
 }
 .search-field::placeholder{
-    color:rgb(228, 228, 228);
+    color:rgb(189, 202, 210);
 }
 .search-field:focus{
     outline: none;
