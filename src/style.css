@@ -21,22 +21,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
-    background-color: aqua;
-    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.151);
+    height: 80vh;
 }
-.search-bar{
-    display:flex;
-    background-color: blue;
-    height: 50%;
-    width: 100%;
-    max-width: 400px;
-}
+
 .search-field{
     border: none;
-    background: url("../icons/Searchbar.png") no-repeat center;
+    position: fixed;
     background-size: contain;
-    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 3px 0px rgba(0, 0, 0, 0.257);
+    height: 5vh;
+    width: 20vw;
+    min-width: 300px;
+    border-radius: 5vh;
 }
 .search-field::placeholder{
     color:rgb(189, 202, 210);
