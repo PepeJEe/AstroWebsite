@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="normalise.css">
         <title>AstroApp</title>
+        <script src="fetchdata.js" defer></script>
     </head>
     <header id="header">
         <button class="menu-button">menu</button>
@@ -20,6 +21,11 @@
             </div>
             <div class="search-div">
                 <input type="text" placeholder="search..." class="search-field">
+            </div>
+            <div>
+                <h2 id="location">LOCATION:</h2>
+                <p id="temperature">TEMPERATURE:</p>
+                <p id="clouds">CLOUDS:</p>
             </div>
         </div>
         

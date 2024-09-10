@@ -1,11 +1,12 @@
 header{
-    height: 50px;
+    height: 10vh;
     width: 100%;
     margin: 0%;
     padding: 0%;
     display: flex;
     align-items: center;
 }
+
 body{
     background-size: cover;
     background-attachment: fixed;
@@ -16,21 +17,21 @@ body{
 }
 
 .container{
-    background-color: blue;
-    height: 93vh;
-    display: block;
-    justify-content: center;
-}
-.logo-div{
-    background-color: rgb(204, 65, 65);
+    background-color: rgba(0, 0, 255, 0.195);
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 90vh;
+}
+
+.logo-div{
+    background-color: rgba(0, 238, 255, 0);
+    margin-bottom: 50vh;
 }
 .logo{
-    height: 200px;
-    width: 200px;
-    display: flex;
-    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
 }
 
 .menu-button{
@@ -39,22 +40,19 @@ body{
     padding: 5px;
     border-radius: 25px;
 }
+
 .search-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: aqua;
+    background-color: rgba(255, 0, 38, 0);
+    position: absolute;
 }
-
 .search-field{
     border: none;
     position: relative;
     background-size: contain;
     background-color: rgb(255, 255, 255);
     box-shadow: 10px 10px 3px 0px rgba(0, 0, 0, 0.257);
-    height: 40px;
-    width: 25%;
+    height: 45px;
+    width: 30vw;
     min-width: 250px;
     border-radius: 20px;
     padding-left: 15px;
@@ -65,4 +63,12 @@ body{
 }
 .search-field:focus{
     outline: none;
+}
+.weather-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.096);
+    position: absolute;
+    margin-top: 50vh;
 }
